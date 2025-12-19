@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My HTML Activity</title>
+</head>
+<body>
+
+    <h1 id="mainTitle">My HTML Full Page Challenge</h1>
+
+    <p class="intro">This is my complete HTML page where I use headings, paragraphs, lists, an image, video, and audio.</p>
+
+    <h2>About Me</h2>
+    <p id="aboutMe">My name is Shahd soliman. I am a student and this is my HTML activity for class.</p>
+
+    <h2>My Interests</h2>
+    <ul>
+        <li>Reading</li>
+        <li>spending time with my family</li>
+        <li>Design</li>
+    </ul>
+
+    <h2>My Hobbies</h2>
+    <ul id="hobbiesList" class="hobbies">
+        <li>Listening to music</li>
+        <li>meeting new people</li>
+        <li>Walking</li>
+    </ul>
+
+    <h2>Steps I Followed</h2>
+    <ol>
+        <li>Created an HTML file</li>
+        <li>Added text and lists</li>
+        <li>Added an image, video, and audio</li>
+    </ol>
+
+    <h2>My Photo</h2>
+    <figure>
+        <a href="WhatsApp Image 2025-11-07 at 16.34.09_5a120053.jpg" target="_blank">
+            <img src="WhatsApp Image 2025-11-07 at 16.34.09_5a120053.jpg" alt="My Photo" id="myPhoto"  style="width:200px; height:auto; border-radius:10px;">
+        </a>
+        <figcaption>picture of Shahd Soliman.</figcaption>
+    </figure>
+
+    <h2>My Video</h2>
+        <video controls style="width:300px; height:auto; border-radius:10px;">
+
+        <source src="WhatsApp Video 2025-11-07 at 17.10.36_ce2c2243.mp4" type="video/mp4">
+        <track src="subtitles.vtt" kind="subtitles" srclang="en" label="English"default>
+        <track src="subtitles-ar.vtt" kind="subtitles" srclang="ar" label="Arabic">
+    </video>
+
+    <h2>My Audio Recording</h2>
+    <audio controls>
+        <source src="WhatsApp Audio 2025-11-07 at 17.29.10_8df10e07.waptt.opus" type="audio/mpeg">
+    </audio>
+
+</body>
+</html>
